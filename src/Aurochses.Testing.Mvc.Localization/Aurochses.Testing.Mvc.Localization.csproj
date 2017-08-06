@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <Authors>Aurochses</Authors>
+    <Company>Aurochses</Company>
+    <Description>Aurochses Testing is a library for creating xUnit tests to test localization of MVC projects.</Description>
+    <Copyright>Aurochses 2017</Copyright>
+    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Testing.Mvc.Localization/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Aurochses/Aurochses.Testing.Mvc.Localization/wiki</PackageProjectUrl>
+    <PackageIconUrl>https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Aurochses/Aurochses.Testing.Mvc.Localization</RepositoryUrl>
+    <PackageTags>Test Unit xunit MVC Localization</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\Aurochses.Testing.Mvc.Localization.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.4\Aurochses.Testing.Mvc.Localization.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:\Users\v.rodchenko\.nuget\packages\system.componentmodel.annotations\4.3.0\ref\netstandard1.4\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
