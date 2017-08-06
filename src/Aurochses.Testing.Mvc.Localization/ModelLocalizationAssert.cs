@@ -26,8 +26,8 @@ namespace Aurochses.Testing.Mvc.Localization
 
             var localizedFileItems = new List<LocalizedFileItem>();
 
-            var namespaceRegex = new Regex(@"namespace (?<namespace>\S+)\r\n");
-            var classRegex = new Regex(@"public class (?<class>\S+)\r\n");
+            var namespaceRegex = new Regex(@"namespace (?<namespace>\S+)");
+            var classRegex = new Regex(@"public class (?<class>\S+)");
 
             foreach (var fileItem in fileItems)
             {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Localization;
 
-namespace Aurochses.Testing.Mvc.Localization.Tests.Fakes.ControllerLocalizationAssert.Validate.Controllers
+namespace Aurochses.Testing.Mvc.Localization.Tests.Fakes.Controller.Validate.Controllers
 {
     public class HomeController
     {

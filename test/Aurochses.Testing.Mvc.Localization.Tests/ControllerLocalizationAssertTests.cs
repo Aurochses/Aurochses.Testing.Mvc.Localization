@@ -20,7 +20,7 @@ namespace Aurochses.Testing.Mvc.Localization.Tests
             // Arrange
             var list = new List<LocalizedFileItem>
             {
-                new LocalizedFileItem(_projectPath, @"\Fakes\ControllerLocalizationAssert\Validate\Controllers", "", "HomeController.cs")
+                new LocalizedFileItem(_projectPath, @"\Fakes\Controller\Validate\Controllers", "", "HomeController.cs")
                 {
                     Names =
                     {
@@ -33,7 +33,7 @@ namespace Aurochses.Testing.Mvc.Localization.Tests
 
             var predefinedLocalizedFileItems = new List<LocalizedFileItem>
             {
-                new LocalizedFileItem(_projectPath, @"\Fakes\ControllerLocalizationAssert\Validate\Controllers", "", "HomeController.cs")
+                new LocalizedFileItem(_projectPath, @"\Fakes\Controller\Validate\Controllers", "", "HomeController.cs")
                 {
                     Names =
                     {
@@ -45,8 +45,8 @@ namespace Aurochses.Testing.Mvc.Localization.Tests
             // Act
             var localizedFileItems = ControllerLocalizationAssert.Validate(
                 _projectPath,
-                @"\Fakes\ControllerLocalizationAssert\Validate\Resources\Controllers",
-                @"\Fakes\ControllerLocalizationAssert\Validate\Controllers",
+                @"\Fakes\Controller\Validate\Resources\Controllers",
+                @"\Fakes\Controller\Validate\Controllers",
                 predefinedLocalizedFileItems
             );
 
