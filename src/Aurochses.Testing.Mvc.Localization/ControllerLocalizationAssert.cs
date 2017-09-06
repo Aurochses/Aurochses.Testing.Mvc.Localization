@@ -39,16 +39,13 @@ namespace Aurochses.Testing.Mvc.Localization
                     item.Names.Add(match.Groups["name"].Value);
                 }
 
-                if (predefinedLocalizedFileItems != null)
-                {
-                    var predefinedLocalizedFileItem = predefinedLocalizedFileItems.FirstOrDefault(x => x.RelativePath == item.RelativePath && x.FileNameWithoutExtension == item.FileNameWithoutExtension);
+                var predefinedLocalizedFileItem = predefinedLocalizedFileItems?.FirstOrDefault(x => x.RelativePath == item.RelativePath && x.FileNameWithoutExtension == item.FileNameWithoutExtension);
 
-                    if (predefinedLocalizedFileItem != null)
+                if (predefinedLocalizedFileItem != null)
+                {
+                    foreach (var name in predefinedLocalizedFileItem.Names)
                     {
-                        foreach (var name in predefinedLocalizedFileItem.Names)
-                        {
-                            item.Names.Add(name);
-                        }
+                        item.Names.Add(name);
                     }
                 }
 
