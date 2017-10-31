@@ -4,24 +4,24 @@
     <TargetFramework>netstandard1.4</TargetFramework>
     <Authors>Aurochses</Authors>
     <Company>Aurochses</Company>
-    <Description>Aurochses Testing is a library for creating xUnit tests to test localization of MVC projects.</Description>
+    <Description>Library for creating xUnit tests to test localization of AspNetCore MVC projects.</Description>
     <Copyright>Aurochses 2017</Copyright>
-    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Testing.Mvc.Localization/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/Aurochses/Aurochses.Testing.Mvc.Localization/wiki</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization/wiki</PackageProjectUrl>
     <PackageIconUrl>https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64</PackageIconUrl>
-    <RepositoryUrl>https://github.com/Aurochses/Aurochses.Testing.Mvc.Localization</RepositoryUrl>
-    <PackageTags>Test Unit xunit MVC Localization</PackageTags>
+    <RepositoryUrl>https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization</RepositoryUrl>
+    <PackageTags>Test Unit xunit AspNetCore MVC Localization</PackageTags>
     <Version>1.2.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard1.4\Aurochses.Testing.Mvc.Localization.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard1.4\Aurochses.Xunit.AspNetCore.Mvc.Localization.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard1.4\Aurochses.Testing.Mvc.Localization.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard1.4\Aurochses.Xunit.AspNetCore.Mvc.Localization.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
