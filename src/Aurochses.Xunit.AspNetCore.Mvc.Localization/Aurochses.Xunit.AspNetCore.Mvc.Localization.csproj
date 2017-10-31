@@ -12,6 +12,9 @@
     <RepositoryUrl>https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization</RepositoryUrl>
     <PackageTags>Test Unit xunit AspNetCore MVC Localization</PackageTags>
     <Version>1.2.0</Version>
+	
+    <!-- Required in both test/product projects. This is a temporary workaround for https://github.com/Microsoft/vstest/issues/800 -->
+    <DebugType>Full</DebugType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -27,7 +30,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.3.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
     <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
   </ItemGroup>
 
