@@ -1,11 +1,12 @@
-# Aurochses Testing Mvc Localization
+# Aurochses Xunit AspNetCore Mvc Localization
 
-Aurochses Testing is a library for creating xUnit tests to test localization of MVC projects.
+Aurochses Xunit AspNetCore Mvc Localization is a library for creating xUnit tests to test localization of AspNetCore MVC projects.
 
 ## NuGet
 
-[![NuGet](https://img.shields.io/nuget/v/Aurochses.Testing.Mvc.Localization.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Testing.Mvc.Localization)
-[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Testing.Mvc.Localization.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Testing.Mvc.Localization)
+[![NuGet](https://img.shields.io/nuget/v/Aurochses.Xunit.AspNetCore.Mvc.Localization.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.AspNetCore.Mvc.Localization)
+[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Xunit.AspNetCore.Mvc.Localization.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.AspNetCore.Mvc.Localization)
+[![NuGet Status](http://nugetstatus.com/Aurochses.Xunit.AspNetCore.Mvc.Localization.png)](http://nugetstatus.com/packages/Aurochses.Xunit.AspNetCore.Mvc.Localization)
 
 ## Builds
 
