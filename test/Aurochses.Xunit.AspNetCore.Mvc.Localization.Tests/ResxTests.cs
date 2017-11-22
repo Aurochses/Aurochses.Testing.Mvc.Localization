@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Serialization;
-using Aurochses.Testing;
 using Xunit;
 
 namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
