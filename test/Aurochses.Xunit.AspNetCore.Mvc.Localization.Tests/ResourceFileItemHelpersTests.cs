@@ -112,7 +112,7 @@ namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
                 Assert.NotNull(refCultures.FirstOrDefault(x => x == culture));
             }
 
-            Assert.Equal(1, resourceFileItems.Count);
+            Assert.Single(resourceFileItems);
             foreach (var item in list)
             {
                 var resourceFileItem = resourceFileItems.FirstOrDefault(x => x.GetFullPath() == item.GetFullPath());
