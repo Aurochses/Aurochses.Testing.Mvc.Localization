@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC980ADE-2633-4EE8-A06B-A9D37863596D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E887A996-B8C4-4204-9220-67D840774366}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C4894075-1EB8-495D-A1EB-08F60797D5B2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D72A9650-EBCE-46B1-A241-5D0EF3F3724B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.Xunit.AspNetCore.Mvc.Localization", "src\Aurochses.Xunit.AspNetCore.Mvc.Localization\Aurochses.Xunit.AspNetCore.Mvc.Localization.csproj", "{F3983664-9A44-4622-B47A-9B74FE97C6F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Xunit.AspNetCore.Mvc.Localization", "src\Aurochses.Xunit.AspNetCore.Mvc.Localization\Aurochses.Xunit.AspNetCore.Mvc.Localization.csproj", "{92F2258A-08C6-4E1A-AD8D-90169F1F60CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests", "test\Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests\Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests.csproj", "{6BED3884-6CE4-4208-857E-DC793FF81095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests", "test\Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests\Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests.csproj", "{8852D9AB-B6EB-4F3F-88E9-98B9FB5D975B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,23 +17,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F3983664-9A44-4622-B47A-9B74FE97C6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3983664-9A44-4622-B47A-9B74FE97C6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3983664-9A44-4622-B47A-9B74FE97C6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3983664-9A44-4622-B47A-9B74FE97C6F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6BED3884-6CE4-4208-857E-DC793FF81095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BED3884-6CE4-4208-857E-DC793FF81095}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BED3884-6CE4-4208-857E-DC793FF81095}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BED3884-6CE4-4208-857E-DC793FF81095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F2258A-08C6-4E1A-AD8D-90169F1F60CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F2258A-08C6-4E1A-AD8D-90169F1F60CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F2258A-08C6-4E1A-AD8D-90169F1F60CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F2258A-08C6-4E1A-AD8D-90169F1F60CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8852D9AB-B6EB-4F3F-88E9-98B9FB5D975B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8852D9AB-B6EB-4F3F-88E9-98B9FB5D975B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8852D9AB-B6EB-4F3F-88E9-98B9FB5D975B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8852D9AB-B6EB-4F3F-88E9-98B9FB5D975B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F3983664-9A44-4622-B47A-9B74FE97C6F7} = {FC980ADE-2633-4EE8-A06B-A9D37863596D}
-		{6BED3884-6CE4-4208-857E-DC793FF81095} = {C4894075-1EB8-495D-A1EB-08F60797D5B2}
+		{92F2258A-08C6-4E1A-AD8D-90169F1F60CF} = {E887A996-B8C4-4204-9220-67D840774366}
+		{8852D9AB-B6EB-4F3F-88E9-98B9FB5D975B} = {D72A9650-EBCE-46B1-A241-5D0EF3F3724B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9113E340-F266-4299-8B3A-5E2E5B807DAE}
+		SolutionGuid = {6FDDB392-6358-40AD-9910-454A7AC828CF}
 	EndGlobalSection
 EndGlobal

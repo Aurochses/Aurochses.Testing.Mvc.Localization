@@ -2,36 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Aurochses.Xunit.AspNetCore.Mvc.Localization</PackageId>
+    <Version>2.2.0</Version>
     <Authors>Aurochses</Authors>
     <Company>Aurochses</Company>
-    <Description>Library for creating xUnit tests to test localization of AspNetCore MVC projects.</Description>
+    <Description>Aurochses.Xunit.AspNetCore.Mvc.Localization is a library for creating xUnit tests for ASP.NET Core MVC Localization.</Description>
     <Copyright>Aurochses 2017</Copyright>
-    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization/wiki</PackageProjectUrl>
     <PackageIconUrl>https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64</PackageIconUrl>
     <RepositoryUrl>https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization</RepositoryUrl>
-    <PackageTags>Test Unit xunit AspNetCore MVC Localization</PackageTags>
-    <Version>2.0.0</Version>
-	
-    <!-- Required in both test/product projects. This is a temporary workaround for https://github.com/Microsoft/vstest/issues/800 -->
-    <DebugType>Full</DebugType>
+    <PackageTags>Test Unit xUnit ASP.NET Core MVC Localization</PackageTags>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\Aurochses.Xunit.AspNetCore.Mvc.Localization.xml</DocumentationFile>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningsAsErrors />
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\Aurochses.Xunit.AspNetCore.Mvc.Localization.xml</DocumentationFile>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningsAsErrors />
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
-    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
 
 </Project>
