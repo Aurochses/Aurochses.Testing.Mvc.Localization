@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.Extensions.PlatformAbstractions;
 using Xunit;
 
 namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
@@ -11,7 +10,7 @@ namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
 
         public LocalizationAssertTests()
         {
-            _projectPath = PlatformServices.Default.Application.ApplicationBasePath;
+            _projectPath = AppDomain.CurrentDomain.BaseDirectory;
         }
 
         [Fact]

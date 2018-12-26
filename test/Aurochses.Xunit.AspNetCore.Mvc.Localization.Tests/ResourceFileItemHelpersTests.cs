@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Extensions.PlatformAbstractions;
 using Xunit;
 
 namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
@@ -12,7 +11,7 @@ namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
 
         public ResourceFileItemHelpersTests()
         {
-            _projectPath = PlatformServices.Default.Application.ApplicationBasePath;
+            _projectPath = AppDomain.CurrentDomain.BaseDirectory;
         }
 
         [Fact]
