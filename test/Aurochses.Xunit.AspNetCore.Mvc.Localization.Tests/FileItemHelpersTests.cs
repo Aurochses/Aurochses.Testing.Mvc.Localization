@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Extensions.PlatformAbstractions;
 using Xunit;
 
 namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
@@ -11,7 +11,7 @@ namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
         public void GetFileItems_Success()
         {
             // Arrange
-            var projectPath = PlatformServices.Default.Application.ApplicationBasePath;
+            var projectPath = AppDomain.CurrentDomain.BaseDirectory;
 
             var list = new List<FileItem>
             {
