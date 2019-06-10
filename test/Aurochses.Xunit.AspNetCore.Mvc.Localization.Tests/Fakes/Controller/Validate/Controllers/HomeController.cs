@@ -1,7 +1,9 @@
-﻿using Microsoft.Extensions.Localization;
+﻿using System.Diagnostics.CodeAnalysis;
+using Microsoft.Extensions.Localization;
 
 namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests.Fakes.Controller.Validate.Controllers
 {
+    [ExcludeFromCodeCoverage]
     public class HomeController
     {
         private readonly IStringLocalizer<HomeController> _controllerLocalization;

@@ -51,7 +51,7 @@ namespace Aurochses.Xunit.AspNetCore.Mvc.Localization.Tests
             );
 
             // Assert
-            Assert.Equal(1, localizedFileItems.Count);
+            Assert.Single(localizedFileItems);
             foreach (var item in list)
             {
                 var localizedFileItem = localizedFileItems.FirstOrDefault(x => x.RelativePath == item.RelativePath && x.FileName == item.FileName);
